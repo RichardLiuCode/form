@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="Richard Liu">
+    <meta name="description" content="This is a form that ask who's code is better">
+    <link rel="icon" href="URL">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1 id="title">You think who's code is better?</h1>
+    <br>
+    <input id="nameInput" type="text" placeholder="Enter your name">
+    <br>
+    <br>
+    <input id="emailInput" type="email" placeholder="Enter your email">
+    <br>
+    <br>
+    <textarea id="awnser" placeholder="Enter your awnser"></textarea>
+    <br>
+    <br>
+    <div style="width:304px;text-align:left;margin:0 auto;">
+        <button id="submit">
+            Submit
+        </button>
+    </div>
+    <br>
+    <div id="status"></div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <script src="form.js"></script>
+</body>
+
+</html>

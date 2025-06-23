@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    font-family: arial;
+    background-color: blue
+}
+
+#title {
+    color: white;
+}
+
+#emailInput,
+#awnser,
+#nameInput,
+#submit{
+    width: 300px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color:lightgreen;
+    color:green;
+    padding:4px
+
+}
+
+#emailInput,
+#nameInput {
+    height: 30px;
+    font-size: 20px;
+   
+    
+
+}
+
+#awnser {
+    resize: vertical;
+    height: 130px;
+    font-size:15px;
+    
+}
+
+input,textarea:focus {
+    outline: none
+}
+#submit{
+    width:100px;
+    height:40px;
+    color:white;
+    background-color:rgb(6, 245, 38);
+    font-size:25px
+
+}
+#submit:active{
+    background-color:greenyellow
+}
+#status{
+    width:300px;
+    color:white;
+    text-align:left;
+    margin:0 auto;
+    font-size:20px;
+}
